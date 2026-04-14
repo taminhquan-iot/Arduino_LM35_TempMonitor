@@ -1,0 +1,69 @@
+﻿  long tickStart = 0;
+        public enum _enCheDo { Compact = 0, Scroll };
+        _enCheDo CheDo = _enCheDo.Compact;
+
+        public void draw(double setpoint1)
+        {
+            //make sure that curvelist has at least one curve
+            if (zedGraphControl1.GraphPane.CurveList.Count <= 0)
+                return; // Kiểm tra việc khởi tạo các đường curve
+
+            LineItem curve1 = zedGraphControl1.GraphPane.CurveList[0] as LineItem;
+            //LineItem curve2 = zedGraphControl1.GraphPane.CurveList[1] as LineItem;
+            if (curve1 == null)
+                return;
+            //if (curve2 == null)
+            //    return;
+
+            IPointListEdit list1 = curve1.Points as IPointListEdit;
+            //IPointListEdit list2 = curve2.Points as IPointListEdit;
+            if (list1 == null)
+                return;
+            //if (list2 == null)
+            //    return;
+
+            tickStart = tickStart + 1;
+            double time = tickStart;
+            //time = (Environment.TickCount - tickStart) / 500.0;
+
+            list1.Add(time, setpoint1);// Đây chính là hàm hiển thị dữ liệu của mình lên đồ thị
+            //list2.Add(time, setpoint1 + 20);
+
+            //keep the X scale at a rolling 30 seconed interval, with one major step
+            //between the max X value and the end of the axis
+            Scale xScale = zedGraphControl1.GraphPane.XAxis.Scale;
+            if (time > xScale.Max - xScale.MajorStep)
+            {
+                if (CheDo == _enCheDo.Compact)
+                {
+                    xScale.Max = time + xScale.MajorStep;
+                    xScale.Min = xScale.Max - 30.0;
+                }
+                else
+                {
+                    xScale.Max = time + xScale.MajorStep;
+                    xScale.Min = 0;
+                }
+            }
+
+            //make sure the y axis is rescaled to accommodate actual data
+            zedGraphControl1.AxisChange();
+            // Force a redraw
+            zedGraphControl1.Invalidate();
+        }
+
+  GraphPane myPane = zedGraphControl1.GraphPane;
+            myPane.Title.Text = "ĐỒ THỊ NHIỆT ĐỘ TỪ CẢM BIẾN LM35";
+            myPane.XAxis.Title.Text = "Thời Gian";
+            myPane.YAxis.Title.Text = "Nhiệt Độ";
+            RollingPointPairList list1 = new RollingPointPairList(50);
+            RollingPointPairList list2 = new RollingPointPairList(50);
+            LineItem curve1 = myPane.AddCurve("Nhiệt Độ 1", list1, Color.Red, SymbolType.None);
+            //LineItem curve2 = myPane.AddCurve("Current", list2, Color.Blue, SymbolType.None);
+            myPane.XAxis.Scale.Min = 0;  // Min = 0;
+            myPane.XAxis.Scale.Max = 30; // Max = 30;
+            myPane.XAxis.Scale.MinorStep = 1;  // Đơn vị chia nhỏ nhất 1
+            myPane.XAxis.Scale.MajorStep = 5; // Đơn vị chia lớn 5
+
+            //scale the axes
+            zedGraphControl1.AxisChange();

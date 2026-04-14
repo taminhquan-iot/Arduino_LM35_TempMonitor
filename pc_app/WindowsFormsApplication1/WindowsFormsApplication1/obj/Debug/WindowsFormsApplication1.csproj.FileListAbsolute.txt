@@ -1,0 +1,8 @@
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\C\Documents\BAI GIANG ONLINE\Arduino\CH11\BAI 7 - HIEN THI DU LIEU NHIET DO TU LM35 BANG DO THI TREN MAY TINH\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

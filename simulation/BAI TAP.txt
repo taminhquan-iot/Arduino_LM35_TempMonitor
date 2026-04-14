@@ -1,0 +1,6 @@
+﻿A. VIẾT CHƯƠNG TRÌNH ĐỌC NHIỆT ĐỘ CẢM BIẾN LM35 TỪ KÊNH 2 VÀ HIỂN THỊ DỮ LIỆU NHIỆT ĐỘ ĐỌC ĐƯỢC BẰNG ĐỒ THỊ TRÊN MÁY TÍNH
++ HIỂN THỊ GIÁ TRỊ NHIỆT ĐỘ ĐƯỢC LÊN LCD
+B. VIẾT CHƯƠNG TRÌNH ĐỌC NHIỆT ĐỘ CẢM BIẾN LM35 TỪ KÊNH 6 VÀ HIỂN THỊ DỮ LIỆU NHIỆT ĐỘ ĐỌC ĐƯỢC BẰNG ĐỒ THỊ TRÊN MÁY TÍNH
++ HIỂN THỊ GIÁ TRỊ NHIỆT ĐỘ ĐƯỢC LÊN LCD
+C. VIẾT CHƯƠNG TRÌNH ĐỌC NHIỆT ĐỘ CẢM BIẾN LM35 TỪ KÊNH 4 VÀ HIỂN THỊ DỮ LIỆU NHIỆT ĐỘ ĐỌC ĐƯỢC BẰNG ĐỒ THỊ TRÊN MÁY TÍNH
++ HIỂN THỊ GIÁ TRỊ NHIỆT ĐỘ ĐƯỢC LÊN LCD

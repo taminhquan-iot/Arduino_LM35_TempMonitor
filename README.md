@@ -29,3 +29,7 @@ Arduino_LM35_TempMonitor/
 │       └── LM35_TempReader.ino
 ├── README.md
 └── .gitignore
+
+## 6. Thành viên nhóm
+* **Tạ Minh Quân** - Sinh viên A (Trưởng nhóm) - [Xem trang cá nhân tại đây](https://taminhquan-iot.github.io)
+* **Lê Ngọc Yến Nhi** - Sinh viên B
